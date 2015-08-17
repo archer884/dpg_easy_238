@@ -1,0 +1,18 @@
+[root]
+name = "easy_238"
+version = "0.1.0"
+dependencies = [
+ "itertools 0.3.25 (registry+https://github.com/rust-lang/crates.io-index)",
+ "lazy_static 0.1.14 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "itertools"
+version = "0.3.25"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "lazy_static"
+version = "0.1.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+

@@ -1,0 +1,8 @@
+[package]
+name = "easy_238"
+version = "0.1.0"
+authors = ["J/A <archer884@gmail.com>"]
+
+[dependencies]
+itertools = "*"
+lazy_static = "*"
