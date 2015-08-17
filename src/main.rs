@@ -65,6 +65,9 @@ impl fmt::Display for OrderResult {
 }
 
 pub fn main() {
+    // Honestly, this probably isn't worth it. The only thing I'm doing is I'm trying to take
+    // input from a file and piped input and stick them on the same damn `BufReader`... A whole
+    // lot of trouble without any real benefit.
     let input: Box<BufRead> = match load_input() {
         Some(input) => input,
         None => {
